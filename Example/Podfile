@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AQPagerSteps_Example' do
+  pod 'AQPagerSteps', :path => '../'
+
+  target 'AQPagerSteps_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
